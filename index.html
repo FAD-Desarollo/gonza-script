@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/2.3.7/mini-default.min.css"
+      integrity="sha512-3jRZ/RINdy5kQXlIFiRSrDNf7KVxO6f7U4OGHXOTd5J+qRoimjea7WTYTpwZloSNFLagmWu7AHsmyORSN9Y2Pw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <textarea
+          placeholder="Ingresa el codigo"
+          id="code"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button id="submit">Guardar</button>
+        <button>Reiniciar</button>
+      </div>
+    </div>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+      }
+    </style>
+    <div id="script"></div>
+    <script src="./main.js"></script>
+  </body>
+</html>
